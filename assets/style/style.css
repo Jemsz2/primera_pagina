@@ -33,8 +33,7 @@ li{
     width: 200px;
     height: 50px;
    
-    background-image: url("https://thumbs.dreamstime.com/b/tire-texture-16431534.jpg");
-    background-size: 100%;
+    
     
 
 }
@@ -57,4 +56,23 @@ justify-content: space-between;
 gap: 16pt;
 display: flex;
 align-items: center;
+ }
+
+
+
+
+ @keyframes myanimacion {
+0%{
+
+}
+
+50%{
+transform: rotateZ(100deg);
+
+}
+
+10%{
+
+    transform: rotateZ(0deg);
+}
  }
